@@ -1,0 +1,127 @@
+.img {
+  position: relative;
+}
+
+.img img {
+  width: 100%;
+  padding-top: 85px;
+  height: 728px;
+  object-fit: cover;
+}
+
+.main_para {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  
+}
+
+.main_para h1 {
+  font-size: 3em;
+  margin: 0;
+  margin-right: 900px;
+}
+
+.main_para h2 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.cta-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #05b2dd;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #333;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  background-image: url('pexels-rebaz-geo-1735378-11053744.jpg'); 
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  
+}
+
+.login-form {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: white;
+  margin-left: 400px;
+  margin-top: 200px;
+  padding-bottom: 29px;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #5c4caf;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+  background-color: #05b2dd;
+}
+.reviews-container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.reviews-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.review {
+  margin-bottom: 10px;
+}
+
+.review p {
+  margin: 0;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
